@@ -1,0 +1,23 @@
+{
+    "entries": {
+        "0": {
+            "uid": 0,
+            "key": [
+                "888"
+            ],
+            "keysecondary": [],
+            "comment": "",
+            "content": "888888",
+            "constant": false,
+            "selective": true,
+            "selectiveLogic": 0,
+            "addMemo": true,
+            "order": 100,
+            "position": 0,
+            "disable": false,
+            "excludeRecursion": false,
+            "probability": 100,
+            "useProbability": true
+        }
+    }
+}

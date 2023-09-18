@@ -1,0 +1,34 @@
+2023.8.13
+当前版本K启源魔改版  同步官网最新1.9.7
+
+PC端
+运行需要node环境，如果没有到 https://nodejs.org/en  下载，要求20.4版本以上，无脑下一步完成安装
+
+电脑端
+直接双击运行 "一键启动PC端"，正常会开启一个8000端口的弹窗和一个开启8444端口的弹窗
+如果端口already in use，那么需要将占用端口的程序杀掉，运行杀端口.bat，输入端口号杀掉进程之后重新启动
+
+如果8444窗口报错多半是因为梯子问题或者sessionKey过期
+
+如果报错 <!DOCTYPE html><html ......   是你的梯子问题与程序无关
+梯子问题换美，英节点，开启tun模式!!!
+
+如果报错：Couldn't get account info have you set your cookie?
+不需要修改任何配置文件，直接在http://127.0.0.1:8000酒馆页面里面找倒数第三个配置项`扩展`
+在倒数第三个配置项里的sessionKey配置项中粘贴最新的key然后保存即可，刷新页面
+
+安卓端
+需要ZeroTermux终端软件，同样需要node环境
+
+首次需要运行
+apt update
+apt upgrade
+pkg install nodejs
+chmod -R 777 clewd
+
+之后每次
+进入到SillyTavern目录中
+终端1运行sh startSilly.sh 
+开终端2运行sh startClewd.sh
+即可
+

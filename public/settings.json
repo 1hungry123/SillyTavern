@@ -587,7 +587,7 @@
     "windowai_model": "",
     "openrouter_model": "OR_Website",
     "jailbreak_system": false,
-    "reverse_proxy": "https://clewd-71uz.onrender.com/v1",
+    "reverse_proxy": "http://localhost:8444/v1",
     "legacy_streaming": false,
     "chat_completion_source": "openai",
     "max_context_unlocked": true,

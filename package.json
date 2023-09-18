@@ -46,6 +46,9 @@
     "name": "sillytavern",
     "type": "commonjs",
     "license": "AGPL-3.0",
+    "engines": {
+    "node": ">=20.4.0"
+  }
     "repository": {
         "type": "git",
         "url": "https://github.com/SillyTavern/SillyTavern.git"

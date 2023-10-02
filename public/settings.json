@@ -587,12 +587,12 @@
     "windowai_model": "",
     "openrouter_model": "OR_Website",
     "jailbreak_system": false,
-    "reverse_proxy": "http://localhost:8444/v1",
+    "reverse_proxy": "看云端clewd教程获取/v1",
     "legacy_streaming": false,
     "chat_completion_source": "openai",
     "max_context_unlocked": true,
     "api_url_scale": "",
     "show_external_models": true,
-    "proxy_password": "auto",
+    "proxy_password": "123",
     "assistant_prefill": ""
 }
